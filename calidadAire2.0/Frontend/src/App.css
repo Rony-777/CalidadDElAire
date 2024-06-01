@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: "Jost", sans-serif;
+}
+
+nav{
+  z-index:  1001 !important;
+}
+
+html::selection,
+body::selection {
+  background-color: #6366f1; /* Cambia el color de resaltado al seleccionar texto */
+  color: white; /* Cambia el color del texto resaltado */
+}
+
+.select-text::selection {
+  background-color: #6366f1; /* Cambia el color de resaltado al seleccionar texto */
+  color: black; /* Cambia el color del texto resaltado */
+}
